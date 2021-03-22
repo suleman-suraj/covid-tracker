@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  background-color: bisque;
 }
 header {
   display: flex;
@@ -14,6 +15,7 @@ section {
 .confirmed-case, .death-case, .recovery-case {
   height: 150px;
   border: 1px solid black;
+  border-radius: 50px 110px;
   box-shadow: 0 6px 5px 3px gray;
   width: 300px;
   margin: 20px;
